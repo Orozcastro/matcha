@@ -181,10 +181,10 @@ li {
     background-color: #fff;
     width: 280px;
     border-radius: 8px;
+    position: relative;
 }
 .profiles-foto {
     width: 280px;
-
 }
 .profiles-logo {
     background-color: #f9da73;
@@ -194,7 +194,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 250px; 
+    right: 20px;
 }
+
 .profiles-logo img {
     width: 75px;
     height:auto;
