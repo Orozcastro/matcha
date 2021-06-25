@@ -8,9 +8,10 @@
     <title>Matcha</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
     <!-- <script src='main.js'></script> -->
 </head>
 <body>
@@ -36,7 +37,6 @@
             <a href="/login">
             Sing In 
             </a>
-
             <button>Start free trial</button>
         </div>
         
@@ -44,14 +44,15 @@
 </section>
 
     <!-- Esto es lo que se verá en el navegador web -->
-    <!-- <h1>hola</h1>     
+<main>
+    <h1>hola</h1>     
     <h2>hola</h2>
     <h3>hola</h3>
     <h4>hola</h4>
     <h5>hola</h5>
     <h6>hola</h6>
     <p>Lorem ipsum, <b>dolor sit</b> amet unde.</p> -->
-
+</main>
     <!-- <input type="text"><br> -->
     <form action="">
         <!-- reuired obiga al usuario a poner la info -->
@@ -79,8 +80,10 @@
 
  <br>
 
-    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="imagenGetmatcha">
-
+    <figure class="banner">
+        <img class="capterra-img" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
+            alt="imagenCapterra">
+    </figure>
     <section class="promo">
         <div class="div-video">
             <video width="450" height="350" controls poster="img/jeep.jpeg">
@@ -104,6 +107,58 @@
             </form>
         </article>
     </section>
+
+    <section class="features">
+        <div class="contenedor">
+        <aticle class="feature-art">
+            <div class="feat-content">
+                <img src="img/icon_publish1.png" alt="">
+                <h2>Fill your blog with engaging articles.</h2>
+                <p>Publish to your blog in less time than it takes to drink your morning coffee.</p>
+                <a href="">Publish instantly →</a>
+            </div>
+            <div class="feat-img">
+                <img src="img/image_publish1.png" alt="">
+            </div>
+        </aticle>
+        <aticle class="feature-art">
+            <div class="feat-content">
+                <img src="img/icon_publish2.png" alt="">
+                <h2>Attract and engage more website visitors.</h2>
+                <p>Enhance your email, social media channels, and paid ads with content from Matcha.</p>
+                <a href="">Get more site traffic →</a>
+            </div>
+            <div class="feat-img">
+                <img src="img/image_publish2.png" alt="">
+            </div>
+         </aticle>
+        <aticle class="feature-art">
+            <div class="feat-content">
+                <img src="img/icon_publish3.png" alt="">
+                <h2>Capture more emails with locked content.</h2>
+                <p>Convert 10x more of your traffic into subscribers and nurture them to a sale.</p>
+                <a href="">Grow your email list faster →</a>
+            </div>
+            <div class="feat-img">
+                <img src="img/image_publish3.png" alt="">
+            </div>
+        </aticle>
+        <aticle class="feature-art">
+            <div class="feat-content">
+                <img src="img/icon_publish4.png" alt="">
+                <h2>Optimize your blog’s performance.</h2>
+                <p>See what content delivers the most traffic, engagement, email subscribers, and sales.</p>
+                <a href="">See content’s ROI →</a>
+            </div>
+            <div class="feat-img">
+                <img src="img/image_publish4.png" alt="">
+            </div>
+        </aticle>
+        </div>
+    </section>
+
+
+
 
     <section class="users">
         <div class="content">
@@ -134,6 +189,62 @@
                     </div>
             </div>
         </div>
+    </section>
+
+    <section class="howWork hw-content">
+        <article class="howWork-art">
+            <h2>How does Matcha wok?</h2>
+            <p>Your blog can be so much more than window dressing. Use Matcha’s
+                <a href="">simple <br>formula </a>
+                to transform your blog into an ecommerce growth engine.
+            </p>
+            <button>Explore the Platfom</button>
+        </article>
+        <article class="steps">
+            <div class="step-card"> 
+                <div class="step-card-img">
+                    <img class="icon" src="img/howWork/icon_publish.png" alt="">
+                    <img class="img"src="img/howWork/publish.png" alt=""></div>
+                <div class="step-card-info">
+                    <h2>Publish</h2>
+                    <p>Effortlessly fill your blog with content that shoppers want to read.</p>
+                    <a href="">Publish instantly →</a>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-card-img">
+                    <img class="icon" src="img/howWork/icon_promote.png" alt="">
+                    <img class="img"src="img/howWork/promote.png" alt="">
+                </div>
+                <div class="step-card-info">
+                <h2>Promote</h2>
+                <p>Use articles in email, social, and content ads to attract more site visitors.</p>
+                <a href="">Drive morer site <br> visitors →</a>
+            </div>
+            </div>
+            <div class="step-card">
+                <div class="step-card-img">
+                    <img class="icon" src="img/howWork/icon_capture.png" alt="">
+                    <img class="img"src="img/howWork/capture.png" alt="">
+                </div>
+                <div class="step-card-info">
+                    <h2>Capture</h2>
+                    <p>Turn readers into email subscribers and subscribers into customers.</p>
+                    <a href="">Grow your email list →</a>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-card-img">
+                    <img class="icon" src="img/howWork/icon_measure.png" alt="">
+                    <img class="img"src="img/howWork/measure.png" alt=""></div>
+                <div class="step-card-info">
+                    <h2>Measure</h2>
+                    <p>See what’s working and what’s not to easily optimize for more traffic, email subscribers, and sales.
+                    </p>
+                    <a href="">Track performance →</a>
+                </div>
+            </div>
+        </article>
     </section>
 </body>
 </html>
