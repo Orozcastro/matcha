@@ -389,3 +389,83 @@ main {
     color: #46484c;
     margin-bottom: 15px;
 }
+
+/* RESPONSIVE DESIGN ************************************************************* */
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 100px;
+  }
+  h1,h2 {
+    font-size: 30px;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  .publish-formulario > form {
+    /* display: flex; */
+    flex-direction: column;
+    text-align: center;
+  }
+  .publish-formulario > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish-formulario > form > div > input {
+    width: 65%;
+  }
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .div-video > video {
+    width: 100%;
+  }
+  .div-video > img {
+    margin: 15px 0;
+  }
+
+  .publish {
+    margin: top 10px;
+    text-align: center;
+  }
+  /* .publish > h3 {
+    font-size: 25px;
+    line-height: 102;
+    margin-top: 15px;
+  } */
+  .publish .trial{
+    margin-bottom: 40px;
+  }
+
+  /* tarjetas */
+  .contenedor {
+    grid-template: repeat(4, 360px) / repeat(1, 520px); 
+  }  
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
