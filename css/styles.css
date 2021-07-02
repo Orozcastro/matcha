@@ -57,31 +57,36 @@ main {
   right: 0;
   z-index: 1;
 }
-
-.header {
+.navbar {
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+   /* background-color: black;  */
+}
+/* .header {
   margin: 15px 20px;
-  /* font-size: 0; */
+  /* font-size: 0; 
   height: 45px;
 }
 .header {
   font-size: 16px;
-  /* height: 50px; */
+  /* height: 50px; 
   line-height: 45px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-}
-.navbar li {
+  /* align-items: center; 
+} */
+/* .navbar li {
   display: inline;
-}
+} */
 .logo {
   padding: 0;
 }
 
-.navbar a {
+/* .navbar a {
   text-align: center;
   color: #025157;
-}
+} */
 
 .menu-item {
   display: inline;
@@ -114,6 +119,34 @@ main {
   font-size: 18px;
 }
 
+/* caousel *********************************/
+.carousel {
+  margin-top: 80px;
+  position: relative
+}
+.carousel-inner {
+  height: 500px;
+}
+.carousel-control-prev {
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 230px;
+  left: 30px;
+  z-index: 0;
+}
+.carousel-control-next {
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 230px;
+  right: 30px;
+  z-index: 0;
+}
+
+/* baner ******************* */
 .banner {
     text-align: center;
     margin: 25px;;
@@ -393,9 +426,9 @@ main {
 /* RESPONSIVE DESIGN ************************************************************* */
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar, .actions {
+  /* .navbar, .actions {
     display: none;
-  }
+  } */
   main {
     margin-top: 100px;
   }
@@ -405,6 +438,20 @@ main {
   .banner > img {
     width: 100%;
   }
+  /* formulario *************** */
+.bg-light {
+  background-color: #a1d683;
+}
+
+.formulario button {
+  color: #fff;
+  background-color: #025157;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
   .publish-formulario > form {
     /* display: flex; */
     flex-direction: column;

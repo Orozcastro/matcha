@@ -7,10 +7,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Matcha</title>
     <!-- bootstrap -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css%22" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css%22" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,40 +49,85 @@
 </section> -->
 
  <!--Esto es lo que se verá en el navegador web -->
-  <section class="fixed-header">
+<section class="fixed-header">
     <header class="header">
-      <a href="/" class="logo">
+        <a href="/" class="logo">
         <img
           src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
           alt="Matcha"
         />
       </a>
-      <nav class="navbar">
-        <ul class="menu">
-          <li class="menu-item">Platform</li>
-          <li class="menu-item">Pricing</li>
-          <li class="menu-item">Customers</li>
-          <li class="menu-item">Resources</li>
-          <li class="menu-item">About</li>
-        </ul>
-      </nav>
-      <div class="actions">
-        <a>Sign In</a>
-        <button>Start free trial</button>
-      </div>
+        <!-- Nuestra barra de navegación comentada va aquí -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Platform</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Customers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <a>Sign In</a>
+                  <button>Start free trial</button>
+                </form>
+              </div>
     </header>
-  </section>
+</section>
+
+<!-- carousel -->
+<section class="carousel-cont">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/oficina.jpg" class="d-block w-100" alt="oficina">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/celular.jpg" class="d-block w-100" alt="celular">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/redContactos.jpg" class="d-block w-100" alt="redContactos">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
 
     <!-- Esto es lo que se verá en el navegador web -->
-<main>
+<!-- <main>
     <h1>hola</h1>     
     <h2>hola</h2>
     <h3>hola</h3>
     <h4>hola</h4>
     <h5>hola</h5>
     <h6>hola</h6>
-    <p>Lorem ipsum, <b>dolor sit</b> amet unde.</p> -->
-</main>
+    <p>Lorem ipsum, <b>dolor sit</b> amet unde.</p> 
+</main> -->
 
     <figure class="banner">
         <img class="capterra-img" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
@@ -92,34 +135,31 @@
     </figure>
     
     <!-- <input type="text"><br> -->
-    <article class="publish-formulario">
-        <form action="">
-            <div>
-                <!-- reuired obiga al usuario a poner la info -->
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="fname" required>
+
+    <article class="formulario w-25 mx-auto bg-light">
+        <form class="border  p-4 rounded-sm ">
+            <div class="mx-auto">
+                <label for="exampleInputName1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
             </div>
-            <div><label>Apellido: </label>
-                <!-- <input type="text"><br> -->
-                <input type="text" id="lastname" name="lastname" placeholder="Apellido">
+            <div class="mx-auto">
+                <label for="exampleInputLastName1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputLastName1" aria-describedby="lastNameHelp">
             </div>
-            <div>
-                <label>Edad: </label>
-                <!-- <input type="number"><br> -->
-                <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35">
+            <div class="mx-auto">
+                <label for="exampleInputEdad1" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="exampleInputEdad1" aria-describedby="edadlHelp" min="18" max="35">
             </div>
-            <div>
-                <label>Email: </label>
-                <!-- <input type="email"><br> -->
-                <input type="email" id="email" name="email" placeholder="Correo">
+            <div class=" mx-auto">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div>
-                <label>Contraseña: </label>
-                <!-- <input type="password"><br> -->
-                <input type="password" id="password" name="password" placeholder="Contraseña">
+            <div class=" mx-auto">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <div>
-                <button type="submit">Enviar &rarr;</button>
+            <div class="p-3 mx-auto">
+                <button type="submit" class="mx-auto">Submit</button>
             </div>
         </form>
     </article>
@@ -287,17 +327,17 @@
 
 
     <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js%22
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js%22
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js%22
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"
   ></script>
