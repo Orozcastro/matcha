@@ -6,7 +6,52 @@
   color: #135359;
 }
 
+.form-inline button {
+  color: #fff;
+  background-color: #67b54b;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.tit {
+  background-color: #96d178;
+}
+.tit h2 {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+
+.formulario form {
+  width: 400px;
+}
+
+.signImg img {
+  width: 600px;
+}
+
 /** main.scss */
+.navbar-nav {
+  font-size: 18px;
+}
+.navbar-nav .nav-link {
+  color: #025157;
+}
+
+.form-inline {
+  color: #67b54b;
+}
+.form-inline button {
+  margin-left: 10px;
+}
+
+.signInLink:hover {
+  text-decoration: none;
+  color: #135359;
+}
+
 .blog {
   background-color: #ffffff;
   max-width: unset;
@@ -82,6 +127,40 @@
   margin-left: 8px;
   font-weight: 600;
   font-size: 18px;
+}
+
+.freeDays {
+  text-align: center;
+}
+
+.imgOffice {
+  background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 350px;
+  margin-bottom: -27px;
+}
+
+.greenSec {
+  background-color: #96d178;
+  padding: 100px;
+}
+.greenSec h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.greenSec p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+.footer p {
+  color: #4a4a4a;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=output.css.map */

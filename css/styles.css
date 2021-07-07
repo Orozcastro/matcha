@@ -63,6 +63,13 @@ main {
   font-weight: 500;
    /* background-color: black;  */
 }
+.navbar {
+  background-color: #fffbf7;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #025157;
+}
 /* .header {
   margin: 15px 20px;
   /* font-size: 0; 
@@ -149,7 +156,10 @@ main {
 /* baner ******************* */
 .banner {
     text-align: center;
-    margin: 25px;;
+    margin: 30px;;
+}
+.banner img {
+  margin-bottom: 30px;
 }
 
 /* section del video y el article */

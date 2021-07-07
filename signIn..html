@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Matcha</title>
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <link rel='stylesheet' media='screen' href='./css/signIn.css'>
+    <link rel='stylesheet' media='screen' href='./output.css'>
+
+</head>
+<body>
+    <header class="header fixed-top p-3 mb-5 bg-white rounded">
+        <a href="./index.html" class="logo">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+        </a>
+        <!-- Nuestra barra de navegación comentada va aquí -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="./index.html">
+                <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <div class="tit">
+        <h2>Create your free account!</h2>
+    </div>
+    <article class="formulario pt-4 mx-auto bg-light d-flex justify-content-around">
+        <!-- w-25 -->
+        <form class="border p-4 rounded-lg shadow p-3 mb-5 bg-white rounded">
+            <div class="mx-auto">
+                <label for="exampleInputName1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+            </div>
+            <div class="mx-auto">
+                <label for="exampleInputLastName1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputLastName1" aria-describedby="lastNameHelp">
+            </div>
+            <div class="mx-auto">
+                <label for="exampleInputEdad1" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="exampleInputEdad1" aria-describedby="edadlHelp" min="18"
+                    max="35">
+            </div>
+            <div class=" mx-auto">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class=" mx-auto">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="p-3 mx-auto">
+                <button type="submit" class="button mx-auto">Submit</button>
+            </div>
+        </form>
+        <div class="signImg">
+            <img src="./img/signIn.jpg" alt="">
+        </div>
+    </article>
+
+
+    <footer class="footer d-flex justify-content-between align-items-center p-4" >
+        <a href="./index.html" class="logo">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+        </a>
+        <div class="copyRigts">
+            <p>© 2020 Matcha. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

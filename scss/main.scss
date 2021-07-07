@@ -1,6 +1,33 @@
 /** main.scss */
 @use 'global' as *;
+@use 'signIn' as *;
 
+
+
+// header **************
+.navbar-nav {
+  font-size: 18px;
+  .nav-link {
+    color: $dark-green-title;
+  }
+}
+
+.form-inline {
+  color: $green;
+  button {
+    @extend %button-green ;
+    margin-left: 10px;
+  }
+}
+.signInLink {
+  &:hover {
+    text-decoration: none;
+    color: $dark-green-text;
+  }
+}
+
+// 
+// blog  *****************
 .blog {
   background-color: $white;
   max-width: unset; // qu crezca el total disponible
@@ -92,4 +119,41 @@
         font-weight: 600;
       font-size: 18px;
     }
+}
+
+
+// freedays
+.freeDays {
+   text-align: center;
+ }
+.imgOffice {
+  background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 350px;
+    margin-bottom: -27px;
+    
+}
+
+.greenSec  {
+  background-color: #96d178;
+  padding: 100px;
+  h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 18px;
+    color: $white;
+  }
+}
+
+// footer
+.footer {
+  background-color: $white;
+  p {
+    color: $black;
+    font-size: 15px;
+  }
 }

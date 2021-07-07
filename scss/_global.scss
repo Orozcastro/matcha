@@ -14,3 +14,11 @@ $font-title: "Alegreya", serif;
     font-family: $font-title;
     color: $dark-green-text;
 }
+%button-green {
+        color: #fff;
+        background-color: $green;
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+        border-radius: 8px;
+}
