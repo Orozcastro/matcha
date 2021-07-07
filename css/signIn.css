@@ -1,4 +1,20 @@
-
+.tit {
+    background-color: #96d178;
+  }
+  .tit h2 {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+  }
+  
+  .formulario form {
+    width: 400px;
+  }
+  
+  .signImg img {
+    width: 600px;
+  }
+  
 
 
 
