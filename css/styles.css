@@ -448,6 +448,9 @@ main {
   .banner > img {
     width: 100%;
   }
+  .banner > .pageSH {
+    height: 300px;;
+  }
   /* formulario *************** */
 .bg-light {
   background-color: #a1d683;
@@ -503,6 +506,48 @@ main {
   .contenedor {
     grid-template: repeat(4, 360px) / repeat(1, 520px); 
   }  
+
+  /* users */
+   .users .content {
+    flex-direction: column;
+    
+  }
+  .brands {
+    padding: 10px;
+  }
+  .brands > button {
+    margin: 0 auto;
+  }
+
+  /* howWok */
+  .steps {
+    grid-template: repeat(4, 360px) / repeat(1, 480px);
+    justify-content: center;
+  }
+  .step-card {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .step-card-img > .img {
+   left: 70px;
+  } 
+  .step-card-img > .icon {
+    left: 45px;
+    top: 20px;
+   } 
+
+   /* blog */
+   .process-list {
+     align-items: center;
+   }
+
+   .imgOffice {
+     display: none
+   }
+   
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
