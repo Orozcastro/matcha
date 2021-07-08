@@ -52,6 +52,10 @@
   color: #135359;
 }
 
+.pageSH {
+  width: 950px;
+}
+
 .blog {
   background-color: #ffffff;
   max-width: unset;
